@@ -1,0 +1,57 @@
+/**
+ * 
+ */
+
+$('ul.ch_list_tab li').click(function(){
+	$('ul.ch_list_tab li').attr({"class":""});
+	$(this).addClass("on");
+});
+
+function ajax_list_time(){
+	
+	var array ;
+	var str	  = "";
+	var date  = new Date();
+	
+	for(var i = 0; i<array.length; i++){
+		
+		str += "<li data-dt="+date-6+i">";
+		str += "<a href=javascript:; class=date_cont>"
+		str += "<span class=num_date>"+date.getDate()+"</span>"				
+		str += "<span class=txt_date>"+date.getDay()+"</span></a></li>"
+		
+	}
+	
+	$('#scheduleDate').html(str);
+	
+}
+
+
+function ajax_list_item(){
+	
+	var array ;
+	var str	  = "";
+	var date  = new Date();
+	
+	for(var i = 0; i<array.length; i++){
+		
+		str += "<div class=timeline-item date-is='"+00:00+"'>"
+		
+		
+					<h1>6인용 쿠쿠 블랙스톤 화이트스톤 압력밥솥 CRP-R0610FC/FP</h1>
+					<p>
+						4% 237,000원~ 248,000원~무이자10
+					</p>
+					<h1>[최신상]코웨이 노블정수기 렌탈_CJ단독</h1>
+					<p>
+						월 렌탈료 17,900원~
+					</p>
+					<h1>[온플]엘리스앤블루 소프트 코듀로이 팬츠 3종</h1>
+					<p>
+						84,500원~무이자3
+					</p>
+				</div>
+		
+	}
+	
+}

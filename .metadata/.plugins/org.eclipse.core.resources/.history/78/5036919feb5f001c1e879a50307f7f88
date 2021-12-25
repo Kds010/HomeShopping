@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>SC쇼핑바라기</title>
+</head>
+<body>
+<div id="wrap">
+	<th:block th:replace="header.html"></th:block>
+	<div id="container">
+		<div class="content">
+			<div class="fiexd_wrap">
+				<div class="fixed_wrap_div">
+					<h2 class="fiexd_wrap_tit">방송 편성표</h2>
+					<ul class="ch_list_tab" id="ch_list_tab">
+						<li class="">CJ TV</li>
+						<li class="">CJ TV+</li>
+						<li class="">GS SHOP LIVE</li>
+						<li class="">GS MY SHOP</li>
+						<li class="">롯데홈쇼핑</li>
+					</ul>
+				</div>
+				<ul class="list_date" id="scheduleDate">
+					<li data-dt="20211201">
+						<a href="javascript:;" class="date_cont">
+							<span class="num_date">1</span>
+							<span class="txt_date">월</span></a></li>
+					<li data-dt="20211202">
+						<a href="javascript:;" class="date_cont">
+							<span class="num_date">2</span>
+							<span class="txt_date">화</span></a></li>
+					<li data-dt="20211203">
+						<a href="javascript:;" class="date_cont">
+							<span class="num_date">3</span>
+							<span class="txt_date">수</span></a></li>
+					<li data-dt="20211204">
+						<a href="javascript:;" class="date_cont">
+							<span class="num_date">4</span>
+							<span class="txt_date">목</span></a></li>
+					<li data-dt="20211205">
+						<a href="javascript:;" class="date_cont">
+							<span class="num_date">5</span>
+							<span class="txt_date">금</span></a></li>
+					<li data-dt="20211206">
+						<a href="javascript:;" class="date_cont">
+							<span class="num_date">6</span>
+							<span class="txt_date">토</span></a></li>
+					<li data-dt="20211207">
+						<a href="javascript:;" class="date_cont">
+							<span class="num_date">7</span>
+							<span class="txt_date">일</span></a></li>
+					<li data-dt="20211208">
+						<a href="javascript:;" class="date_cont">
+							<span class="num_date">8</span>
+							<span class="txt_date">월</span></a></li>
+					<li data-dt="20211209">
+						<a href="javascript:;" class="date_cont">
+							<span class="num_date">9</span>
+							<span class="txt_date">화</span></a></li>
+					<li data-dt="20211210">
+						<a href="javascript:;" class="date_cont">
+							<span class="num_date">10</span>
+							<span class="txt_date">수</span></a></li>
+					<li data-dt="20211211">
+						<a href="javascript:;" class="date_cont">
+							<span class="num_date">11</span>
+							<span class="txt_date">목</span></a></li>
+					<li data-dt="20211212">
+						<a href="javascript:;" class="date_cont">
+							<span class="num_date">12</span>
+							<span class="txt_date">금</span></a></li>
+				</ul>
+			</div>
+			
+		<div class="container2">
+			
+			<div class="timeline-item" date-is='12-01 00:00'>
+				<h2>6인용 쿠쿠 블랙스톤 화이트스톤 압력밥솥 CRP-R0610FC/FP</h2>
+				<p>
+					4% 237,000원~ 248,000원~무이자10
+				</p>
+				<h1>[최신상]코웨이 노블정수기 렌탈_CJ단독</h1>
+				<p>
+					월 렌탈료 17,900원~
+				</p>
+				<h1>[온플]엘리스앤블루 소프트 코듀로이 팬츠 3종</h1>
+				<p>
+					84,500원~무이자3
+				</p>
+			</div>
+			
+			<div class="timeline-item" date-is='12-01 01:00'>
+				<h1>Oeehhh, that's awesome.. Me too!</h1>
+				<p>
+					I'm speaking with myself, number one, because I have a very good brain and I've said a lot of things. I write the best placeholder text, and I'm the biggest developer on the web by far... While that's mock-ups and this is politics, are they really so different? I think the only card she has is the Lorem card.
+				</p>
+			</div>
+			
+			<div class="timeline-item" date-is='12-01 02:00'>
+				<h1>I'm ::last-child so my border fades ^__^</h1>
+				<p>
+					I'm speaking with myself, number one, because I have a very good brain and I've said a lot of things. I write the best placeholder text, and I'm the biggest developer on the web by far... While that's mock-ups and this is politics, are they really so different? I think the only card she has is the Lorem card.
+				</p>
+			</div>
+			
+		</div>
+			
+		</div>
+	</div>
+</div>
+</body>
+</html>
