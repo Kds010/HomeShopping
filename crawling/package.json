@@ -1,0 +1,31 @@
+{
+  "name": "crawling",
+  "version": "1.0.0",
+  "description": "HomeShopping_Crawling",
+  "main": "index.js",
+  "scripts": {
+    "test": "node app.js",
+    "start1": "babel-node app.js",
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "author": {
+    "name": "SeonSangWon",
+    "email": "sw_96@kakao.com",
+    "url": "https://seonsangwon.dev"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "cheerio-httpcli": "^0.8.2",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}

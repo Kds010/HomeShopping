@@ -1,0 +1,8 @@
+# SETTING
+.env
+
+# DOCKER
+Dockerfile
+
+# NODE
+node_modules/
